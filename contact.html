@@ -2,9 +2,15 @@
 <html lang="en">
 
 <head>
+
+    <!-- META TAGS -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- LINKS -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -28,7 +34,7 @@
                         <h2 class="title"> Chemical Engineer & Full Stack Developer</h2>
                     </div>
                 </div>
-                <div class="row no-gutters">
+                <div class="row">
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
@@ -41,7 +47,7 @@
                                 <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-envelope" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
-                                <a href="#" class="hvr-sweep-to-bottom"><i class="fas fa-file-download" aria-hidden="true"></i><span>Download CV</span></a>
+                                <a href="assets/CV/CV_Oct2019_EN_Rodrigo Alvarez Monterroso.pdf" target="_blank" class="hvr-sweep-to-bottom hvr-icon-down"><i class="fas fa-file-download hvr-icon" aria-hidden="true"></i><span>Download CV</span></a>
                             </li>
                         </ul>
                     </div>
@@ -54,121 +60,27 @@
     <!------- SECTION -------->
     
     <section class="container-fluid">
-        <div class="row">
-
-            <!------- PERSONAL INFO -------->
-            
-            <div class="col-md-4 bg-color-personal-info section-column">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="section-heading uppercase">
-                            Personal Info
-                        </h3>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Name:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Rodrigo Álvarez Monterroso
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Address:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            Halle (Saale), Germany
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Phone:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            +49 152 3802 7811
-                        </p>
-                    </div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">
-                            Email:
-                        </p>
-                    </div>
-                    <div class="value">
-                        <p>
-                            bramrodrigo89@gmail.com
-                        </p>
-                    </div>
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Any questions or ideas to work together on?</h3>
+                <h5 class="uppercase text-center">Let me know here!</h5>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description or questions" required></textarea>
+                        
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Inquiry</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-            
-            <!------- tHREE SECTIONS -------->
-            
-            <div class="col-md-8 bg-color-three-reasons section-column">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading uppercase">About Me</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
-                                <p>
-                                    I'm a skilled Full Stack Developer with a wealth of diverse life and technical experience that I bring to every project.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
-                                <p>
-                                    I follow form as well as function. I know that the aesthetics of effective design combined with application speed, security and reliability combine to create a great user experience.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4>
-                                <p>
-                                    I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm also a self starter when working solo.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
         </div>
     </section>
+
 
     <!------- FOOTER -------->
 
@@ -177,16 +89,16 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Creative and open-minded Chemical Engineer with demonstrated experience improving process yields, quality standards, and safety conditions. Skilled in data analysis and code programming to support companies in the digital transformation. Constantly updating
-                    knowledge on Software Development and UX Design.
+                    Chemical Engineer with a demonstrated history of working in the chemical and technology industry optimizing process yields and operations by means of digitalization initiatives. Studied Chemical Engineering in Guatemala and Energy Management in Germany.
+                    Currently studying Full-Stack software development for web applications. Innovative, open-minded person with enthusiasm about the digital transformation in the industry.
                 </p>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
                     Need a printable version of my CV? Download it here.
-                    <a href="#" target="_blank" class="cv-pdf">
-                        <i class="fas fa-file-download" aria-hidden="true"></i>
+                    <a href="assets/CV/CV_Oct2019_EN_Rodrigo Alvarez Monterroso.pdf" target="_blank" class="cv-pdf hvr-icon-down">
+                        <i class="fas fa-file-download hvr-icon" aria-hidden="true"></i>
                         <span class="sr-only">Download link.</span>
                     </a>
                 </p>
@@ -195,31 +107,31 @@
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.facebook.com/bramrodrigo89">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://twitter.com/bramrodrigo89">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.linkedin.com/in/rodrigo-monterroso/">
                             <i class="fab fa-linkedin" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.instagram.com/bramrodrigo89/">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCNQoW9LVX1O-U43TGkGzyWw">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
