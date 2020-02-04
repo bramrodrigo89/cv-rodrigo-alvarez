@@ -1,100 +1,150 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rosie Odenkirk</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <!-- META TAGS -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- LINKS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/github-styles.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/github-information.js"></script>
+    
+    <!-- Favicon + Title -->
+
+    <link rel='icon' href="./assets/images/rodrigo.ico" type="image/x-icon">
+    <title>My CV | Rodrigo Á. Monterroso</title>
 </head>
 
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <a href="index.html">
-                <div class="col-md-4 logo"></div>
-            </a>
+
+    <!------- HEADER -------->
+
+    <header>
+        <div class="row no-gutters">
+            <a class="col-md-4 logo" href="index.html"></a>
             <div class="col-md-8">
-                <div class="row bg-color-name-title">
-                    <div class="heading">
-                        <h1 class="name">Rosie Odenkirk</h1>
-                        <h2 class="title"> Full Stack Developer</h2>
+                <div class="row no-gutters bg-color-name-title">
+                    <div class="col heading">
+                        <h1 class="name">Rodrigo Álvarez Monterroso</h1>
+                        <h2 class="title"> Chemical Engineer & Full Stack Developer</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
-                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
-                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class=" fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem">
-                            <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem">
-                            <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-                        </li>
-                        <li class="col-xs-6 col-sm-2 ui-menu-color-download menuitem">
-                            <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
-                        </li>
-                    </ul>
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-xs-6 col-sm-2 list-inline-item ui-menu-color-home menuitem">
+                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                            </li>
+                            <li class="col-xs-6 col-sm-2 list-inline-item ui-menu-color-resume menuitem">
+                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fas fa-user-circle" aria-hidden="true"></i><span>Resume</span></a>
+                            </li>
+                            <li class="col-xs-6 col-sm-2 list-inline-item ui-menu-color-interests menuitem">
+                                <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fas fa-users" aria-hidden="true"></i><span>Interests</span></a>
+                            </li>
+                            <li class="col-xs-6 col-sm-2 list-inline-item ui-menu-color-github menuitem">
+                                <a href="github.html" class="hvr-sweep-to-bottom"><i class="fab fa-github" aria-hidden="true"></i><span>Github</span></a>
+                            </li>
+                            <li class="col-xs-6 col-sm-2 list-inline-item ui-menu-color-contact menuitem">
+                                <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-envelope" aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                            <li class="col-xs-6 col-sm-2 list-inline-item ui-menu-color-download menuitem">
+                                <a href="assets/CV/CV_Oct2019_EN_Rodrigo Alvarez Monterroso.pdf" target="_blank" class="hvr-sweep-to-bottom hvr-icon-down"><i class="fas fa-file-download hvr-icon" aria-hidden="true"></i><span>Download CV</span></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
+
     </header>
+
+    <!------- SECTION -------->
+
     <section class="container-fluid">
         <div class="row bg-color-contact">
-            <div>
+            <div class="col">
                 <h3 class="contact-heading uppercase text-center">View My GitHub Projects:</h3>
                 <h5 class="uppercase text-center">(or change the username to search for other user profiles)</h5>
-            </div>
-
+        
             <div class="center-form">
-                <input type="text" id="gh-username" value="octocat" oninput="fetchGitHubInformation()">
+                <input type="text" id="gh-username" value="bramrodrigo89" oninput="fetchGitHubInformation()">
                 <div id="gh-user-data" class="clearfix"></div>
                 <div id="gh-repo-data" class="clearfix"></div>
             </div>
+
+            </div>
         </div>
     </section>
+
+    <!------- FOOTER -------->
+
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
+                    Chemical Engineer with a demonstrated history of working in the chemical and technology industry optimizing process yields and operations by means of digitalization initiatives. Studied Chemical Engineering in Guatemala and Energy Management in Germany.
+                    Currently studying Full-Stack software development for web applications. Innovative, open-minded person with enthusiasm about the digital transformation in the industry.
                 </p>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download My CV</h5>
+                <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
                     Need a printable version of my CV? Download it here.
-                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
+                    <a href="assets/CV/CV_Oct2019_EN_Rodrigo Alvarez Monterroso.pdf" target="_blank" class="cv-pdf hvr-icon-down">
+                        <i class="fas fa-file-download hvr-icon" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
                 </p>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">MySocial</h5>
+                <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
-                    <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/bramrodrigo89">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/bramrodrigo89">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/rodrigo-monterroso/">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/bramrodrigo89/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCNQoW9LVX1O-U43TGkGzyWw">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </footer>
+    
 </body>
 
 </html>
