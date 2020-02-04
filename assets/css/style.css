@@ -26,6 +26,14 @@
     background-color: #6f42c1;
 }
 
+.ui-menu-color-interests {
+    background-color: #007bff;
+}
+
+.ui-menu-color-github {
+    background-color: #58306d;
+}
+
 .ui-menu-color-contact {
     background-color: #28a745;
 }
@@ -343,6 +351,10 @@ footer {
 .history-items {
     margin-bottom: 30px;
 }
+
+/*---- Interests */
+
+div#map {min-height: 360px;}
 
 /*--------------------------------------------Contact Form */
 
