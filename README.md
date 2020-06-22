@@ -2,4 +2,4 @@ This was one of the projects done during the Full-Stack Development Program from
 
 I included my most updated information into the online resume. 
 
-Last update: April 2019
+Last update: June 2019
